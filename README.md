@@ -1,6 +1,8 @@
 # Discord AI Agent
 
-A retrieval-augmented support bot for Discord. Ran 24/7 in Qdrant's Discord server, where it answered community questions from the Qdrant documentation. Moderators review each answer before it reaches the user.
+> 🏆 **Qdrant bounty recipient.** This agent was designed, developed and deployed as a 24/7 AI-powered support bot on the official Discord server of [Qdrant](https://qdrant.tech), the open-source vector database, where it gave the developer community automated technical help. Qdrant accepted and hosted the bot, and awarded an official bounty for the contribution ([qdrant/qa-automation#1](https://github.com/qdrant/qa-automation/issues/1)).
+
+A retrieval-augmented support bot for Discord. It answers community questions from the Qdrant documentation, and moderators review each answer before it reaches the user.
 
 Questions are matched against your docs with **hybrid search** (dense + sparse vectors in [Qdrant](https://qdrant.tech)), and **Claude** writes the answer from the passages it finds.
 
