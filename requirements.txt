@@ -1,0 +1,8 @@
+anthropic>=1.6.0
+charset-normalizer>=3.3
+discord.py>=2.4
+fastembed-haystack>=2.7.0
+haystack-ai>=3.1.1
+python-dotenv>=1.0
+qdrant-haystack>=10.6.0
+tenacity>=8.5
